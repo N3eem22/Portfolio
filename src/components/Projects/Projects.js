@@ -48,8 +48,8 @@ function Projects() {
               imgPath={ecommerce}
               isBlog={false}
               title="E-Commerce API"
-              description="Developed RESTful e-commerce APIs with .NET Core. Used Clean Architecture, Microsoft Identity for authentication, Redis caching, and integrated a payment gateway. Applied SOLID and Specification Pattern for performance and scalability."
-              ghLink="https://github.com/N3eem22"
+              description="Developed RESTful e-commerce APIs with asp .NET Core. Used Clean Architecture, Microsoft Identity for authentication, Redis caching, and integrated a payment gateway. Applied SOLID and Specification Pattern for performance and scalability."
+              ghLink="https://github.com/N3eem22/Talabat-API.git"
             />
           </Col>
            <Col md={4} className="project-card">
@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Bus Booking System"
               description="Developed a web application Which helps in booking appointments for a bus , Used React Framework for frontend and for backend used Express Js Framework and MySQL Database to store information."
-              ghLink="https://github.com/N3eem22"
+              ghLink="https://github.com/N3eem22/Bus_Booking.git"
             />
           </Col>
           <Col md={4} className="project-card">
