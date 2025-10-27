@@ -2,10 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import helwan from "../../Assets/Projects/helwan.png";
+ import ecommerce from "../../Assets/Projects/ecommerce.png";
 import vacation from "../../Assets/Projects/vacation.png";
-// import ecommerce from "../../Assets/Projects/ecommerce.png";
+import HelwanControl from "../../Assets/Projects/HelwanControl.png";
+import meds from "../../Assets/Projects/meds.png";
 import os from "../../Assets/Projects/OS.png";  
+import Booking from "../../Assets/Projects/Booking.png";  
+import military from "../../Assets/Projects/military.png";  
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,11 +24,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={os}
+              imgPath={HelwanControl}
               isBlog={false}
               title="Helwan Control"
               description="A web system for managing academic registration at Helwan University. Built with ASP.NET Core, applying the full software development life cycle. Implemented Clean Code, Union Architecture, and Repository Design Pattern for scalability and maintainability."
-              ghLink="https://github.com/N3eem22/Academic-Program-Management-System-Back-End.git"
+              ghLink="https://github.com/N3eem22/Academic-Program-Management-System.git"
             />
           </Col>
 
@@ -42,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={os}
+              imgPath={ecommerce}
               isBlog={false}
               title="E-Commerce API"
               description="Developed RESTful e-commerce APIs with .NET Core. Used Clean Architecture, Microsoft Identity for authentication, Redis caching, and integrated a payment gateway. Applied SOLID and Specification Pattern for performance and scalability."
@@ -51,7 +54,7 @@ function Projects() {
           </Col>
            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={os}
+              imgPath={Booking}
               isBlog={false}
               title="Bus Booking System"
               description="Developed a web application Which helps in booking appointments for a bus , Used React Framework for frontend and for backend used Express Js Framework and MySQL Database to store information."
@@ -60,18 +63,18 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={os}
+              imgPath={military}
               isBlog={false}
               title="Military System"
               description="Built a system for faculty of Education , Helwan University , that deployed offline in the
-faculty . It helped them to assign the course for each student to complete their graduation."
+faculty . It helped them to assign the grades of the military course for each student to complete their graduation."
               ghLink="https://github.com/N3eem22/military"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={os}
+              imgPath={meds}
               isBlog={false}
               title="Meds Project"
               description="Developed a web application to apply some of the security algorithms such as RSA and AES encryption."
